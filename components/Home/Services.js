@@ -71,7 +71,6 @@ export default function Services() {
         flare={"PAID & ORGANIC"}
         header={"Search Engine Optimization"}
         content={content1}
-        img={"/seo.jpg"}
         left
       />
     </Stack>

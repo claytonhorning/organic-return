@@ -26,7 +26,7 @@ export default function Service({ flare, header, img, content, left }) {
         position={"relative"}
         mt={5}
       >
-        <Image src={img} layout={"fill"} objectFit={"contain"} />
+        {img && <Image src={img} layout={"fill"} objectFit={"contain"} />}
       </Box>
     </Stack>
   );
