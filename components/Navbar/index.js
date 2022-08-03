@@ -74,7 +74,7 @@ export default function Navbar() {
             icon={<PhoneIcon />}
             aria-label={"Open Menu"}
             display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
+            href="tel:9709874747"
             bg={"transparent"}
             border={"1.5px solid white"}
           />
